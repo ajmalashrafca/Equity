@@ -1,0 +1,160 @@
+.logo{
+	width: 50px;
+	height:50px;
+}
+.logo-win{
+	width: 180px;
+	height:50px;
+}
+
+.quote{
+	color: rgba(34,29,29,1.00);
+	font-weight: bolder;
+	font-size: 20px;
+	padding-left: 50px;
+}
+.title{
+	color: rgba(38,36,36,1.00);
+	font-weight: bolder;
+}
+span.percent{
+	font-weight: bolder;
+}
+.item-wrapper{
+	display: inline-block;
+	width: 300px;
+	height: 350px;
+	position: relative;
+	left: 60px;
+	top:20px;
+	overflow: hidden;
+	box-shadow: 0 0 5px .2px rgba(0,0,0,0.56);
+	margin-right: 6px;
+	margin-bottom: 5px;
+	font-family: caviar dreams bold;
+	transition: all .2s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+}
+.item-wrapper:hover{
+	box-shadow: 0 0 22px .5px rgba(0,0,0,0.61);
+}
+
+.image,.item-image{
+	position: relative;
+	top: 5px;
+	left: 25px;
+	width: 200px;
+	height: 250px;
+}
+.info-wrapper{
+	position: relative;
+	text-align: center;
+	top: 18px;
+}
+.item-tag{
+	left: 20px;
+	text-decoration: none;
+
+}
+.name{
+	color: #514D4D;
+	font-size: 18px;
+}
+.price{
+	color: #129BF2;
+	font-size: 16px;
+}
+.stores{
+	color: #129BF2;
+}
+a{
+	text-decoration: none;
+}
+footer{
+	position: relative;
+	margin-top: 100px;
+	height:350px;
+	background-color: #142525;
+}
+.about{
+	position: absolute;
+	bottom: 5px;
+	left: 30px;
+	color: #C7C4C4;
+}
+.foot-img{
+	height: 60px;
+	width: 120px;
+	position: absolute;
+	bottom: 55px;
+	left: 45%;
+	
+}
+/*..........................*/
+
+.imageWrapper{
+	background-color: black;
+	display: inline-block;
+	position: relative;
+	top: 150px;
+	
+}
+.itemimage{
+	height: 450px;
+	position: relative;
+	padding: 5;
+	
+}
+.seller{
+	position: relative;
+	width: 400px;
+	bottom: 150px;
+	margin: 0 auto;
+	left: 50px;	
+}
+.item-detail{
+	min-height: 600px;
+	height: auto;
+
+	
+}
+
+.buy:hover{
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.60);
+}
+.seller-name{
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-size: 20px;
+	font-weight: 100;
+}
+.price-item{
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-size: 20px;
+	position: absolute;
+	left: 170px;
+	color: #129BF2;
+}
+.buy{
+	position: absolute;
+	right: 0;
+	width: 80px;
+	height: 25px;
+	text-align: center;
+	box-shadow: 0px 0px 5px .1px rgba(0,0,0,0.56);
+	transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+a:hover{
+	text-decoration: none;
+}
+button.navbar-toggle:hover{
+	background-color: transparent;
+}
+
+.search-bar:focus{
+	border: .5px solid;
+	border-bottom-color: rgba(43,43,43,0.72);
+}
